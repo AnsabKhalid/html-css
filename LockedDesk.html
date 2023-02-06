@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+    <meta name="description" content="This is a website for downloading wallpapers, socialising and enjoying different type of entertainment">
+    <meta name="keywords" content="Wallpapers, Anime, Music, Movies, And Latest trends in the World">
+    <meta name="author" content="Ansab Khalid">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/instagram.png">
+    <title>LockedDesk</title>
+  </head>
+  <body>
+    <header>
+
+      <nav class="menu">
+        <div class="toggle_btn" onclick="toggle()"></div>
+
+        <a href="LockedDesk.html" class="head">LockedDesk</a>
+      </nav>
+
+      <aside class="sidebar">
+        <ul>
+          <li><span>Menu</span></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About LockedDesk</a></li>
+          <li><a href="#">Guest Login</a></li>
+          <li><a href="#">Connection</a></li>
+        </ul>
+      </aside>
+    </header>
+    <div id="container">
+      <main>
+        <div class="log">
+          <h2>Login</h2>
+        </div>
+          <form class="login_form" method="post">
+            <div class="user">
+              <div class="text">
+                Email or Phone
+              </div>
+              <input type="text" name="Email or Phone" class="username" placeholder="Email or Phone">
+            </div>
+            <div class="pass">
+              <div class="text">
+                Password
+              </div>
+              <input type="password" name="pwd" class="password" placeholder="Password">
+            </div>
+            <div class="for_pas">
+              <a href="Help.html">Forgot Password...???</a>
+            </div>
+            <div class="btn">
+              <input type="button" name="Login" value="Login" onclick="logg()">
+            </div>
+            <div class="accou_btn">
+              <input type="button" name="Create Account" value="Create Account" class="next" onclick="upper()">
+            </div>
+          </form>
+
+            <form class="signin_form" action="index.html" method="post" id ="overlay">
+              <div class="name">
+                <div class="line">
+                  <input type="text" name="First name" placeholder="First name" class="fir_nam">
+                  <input type="text" name="Last name" placeholder="Last name" class="las_nam">
+                </div>
+                <input type="text" name="Email or phone" placeholder="Email or phone" class="email">
+                <input type="password" name="password" placeholder="New password" class="new_pass">
+              </div>
+              <div class="text" id="birth">
+                Date of Birth
+              </div>
+              <div class="date">
+                <input type="date" name="BirthDay">
+              </div>
+              <div class="text" id="birth">
+                Gender
+              </div>
+              <div class="check">
+                <div class="mal">
+                  <label for="male">Male</label>
+                  <input type="radio" name="gender" value="male">
+                </div>
+                <label for="Female">Female</label>
+                <input type="radio" name="gender" value="female">
+              </div>
+              <div class="btns">
+                <button type="button" name="Sign in" class="resign()">Sign in</button>
+              </div>
+            </form>
+
+        <div class="sign">
+          <p>To Create an Account Click Below</p>
+          <a href="signup.html">Sign Up</a>
+        </div>
+
+      </main>
+    </div>
+    <footer></footer>
+  </body>
+  <script src="login.js">  </script>
+  <script src="java.js">  </script>
+  <script src="main.js"> </script>
+</html>
